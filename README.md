@@ -55,3 +55,17 @@ The system uses a complex system prompt that enforces strict style metrics deriv
 - Burstiness: Mixes sentence lengths aggressively.
 - Slavic Syntax: Encourages direct, "heavy" sentences and subtle article omissions to reflect non-native proficiency.
 - Logit Bias: Hard-bans common AI tokens within the API call to force more creative word choices.
+
+### Frontend
+The interface is built with accessibility and speed in mind:
+- Creativity Slider: Adjusts the LLM temperature in real-time.
+- Toast Notifications: Professional "Text copied" feedback system.
+- Custom Scrollbars: Integrated Netflix-themed scrollbars for large text blocks.
+
+## Purchasing, setup & installation
+This tool is custom made and can be adapted to the preference of a buyer, so i highly recommend you to dm me in [Telegram](https://t.me/cnddev) for purchasing the app.
+It also comes with a setup and installation manual.
+
+## Credits
+Created by: `Malik Alasgar` 
+Concept: `Personal linguistic style transfer and AI-detection bypass.`
