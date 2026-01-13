@@ -1,19 +1,21 @@
-# Mimesis | AI Text Humanizer
+# 👤 Mimesis | AI Text Humanizer
 
-[cite_start]**Mimesis** is an end-to-end text humanization pipeline designed to replicate a user's unique linguistic fingerprint[cite: 5]. [cite_start]Unlike generic AI rewriters, this system is trained exclusively on personal exported data from Telegram, capturing authentic informal, formal, and academic communication styles[cite: 5].
+**Mimesis** is an end-to-end text humanization pipeline designed to replicate a user's unique linguistic fingerprint.
+Unlike generic AI rewriters, this system is trained exclusively on personal exported data from Telegram, capturing authentic informal, formal, and academic communication styles.
 
 ## Project Overview
-[cite_start]The core objective of Mimesis is to bypass AI detection by injecting "human imperfections"—specifically high perplexity and burstiness—into generated text. [cite_start]By analyzing personal archives, the engine mimics specific structural habits, punctuation densities, and even the subtle "Slavic syntax" of a non-native English speaker to ensure 0% AI detection scores.
+The core objective of Mimesis is to bypass AI detection by injecting "human imperfections"—specifically high perplexity and burstiness—into generated text.
+By analyzing personal archives, the engine mimics specific structural habits, punctuation densities, and even the subtle "Slavic syntax" of a non-native English speaker to ensure 0% AI detection scores.
 
 ## Key Features
-* [cite_start]**Style Mimicry**: Trained on real-world personal chat data across three distinct modes: Chatting, Formal, and Academic[cite: 1, 5].
-* [cite_start]**Anti-AI Logic**: Implements a "Negative Style Bank" and structural disruption rules to remove common AI-isms like "Furthermore," "Moreover," or "Delve".
-* [cite_start]**Modular Backend**: Currently powered by the OpenAI GPT-4o API but architected to be easily replaced with local LLMs like Llama or Mistral[cite: 5].
-* [cite_start]**Netflix-Style UI**: A cinematic, high-contrast dark mode interface featuring real-time transformation, creativity sliders, and tap-to-copy functionality.
-* [cite_start]**Post-Processing Scrambler**: A custom logic layer that randomly replaces "too perfect" AI transitions with messy, human alternatives.
+**Style Mimicry**: Trained on real-world personal chat data across three distinct modes: Chatting, Formal, and Academic.
+**Anti-AI Logic**: Implements a "Negative Style Bank" and structural disruption rules to remove common AI-isms like "Furthermore," "Moreover," or "Delve".
+**Modular Backend**: Currently powered by the OpenAI GPT-4o API but architected to be easily replaced with local LLMs like Llama or Mistral.
+**Netflix-Style UI**: A cinematic, high-contrast dark mode interface featuring real-time transformation, creativity sliders, and tap-to-copy functionality.
+**Post-Processing Scrambler**: A custom logic layer that randomly replaces "too perfect" AI transitions with messy, human alternatives.
 
 ## Project Structure
-[cite_start]The project follows a modular pipeline from raw data ingestion to final text generation[cite: 2]:
+The project follows a modular pipeline from raw data ingestion to final text generation:
 
 ```text
 humanizer_project/
