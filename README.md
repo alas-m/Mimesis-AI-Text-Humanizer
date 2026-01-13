@@ -70,4 +70,5 @@ It also comes with a setup and installation manual.
 
 ## Credits
 Created by: `Malik Alasgar` 
+
 Concept: `Personal linguistic style transfer and AI-detection bypass.`
