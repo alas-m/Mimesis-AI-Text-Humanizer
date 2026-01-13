@@ -21,20 +21,20 @@ The project follows a modular pipeline from raw data ingestion to final text gen
 humanizer_project/
 ├── data/
 │   ├── raw/
-│   │   └── result.json              # Raw source file (Source of Truth - DO NOT MODIFY)
+│   │   └── result.json              # Raw source file
 │   ├── intermediate/                # Data processing pipeline stages
-│   │   ├── 01_raw_df.csv            # Initial DataFrame (all messages)
-│   │   ├── 02_cleaned.csv           # Filtered and preprocessed data (B1, B2)
-│   │   └── 03_labeled.csv           # Stylistic segmentation and labeling (C)
+│   │   ├── 01_raw_df.csv            # Initial DataFrame
+│   │   ├── 02_cleaned.csv           # Filtered and preprocessed data
+│   │   └── 03_labeled.csv           # Stylistic segmentation and labeling
 │   └── gold/
-│       ├── corpus_en.json           # Generation corpus (English target style)
-│       └── corpus_ru.json           # Reference corpus (Russian structural patterns)
+│       ├── corpus_en.json           # Generation corpus
+│       └── corpus_ru.json           # Reference corpus
 │
 ├── src/                             # Source code
-│   ├── 1_ingestion.py               # JSON to Pandas parsing (A1)
-│   ├── 2_cleaning.py                # Data cleaning and filtering (B1, B2)
-│   ├── 3_profiling.py               # Style analysis and metrics (E, F, G, H)
-│   └── generation.py                # LLM interaction and Humanization logic (L, M)
+│   ├── 1_ingestion.py               # JSON to Pandas parsing
+│   ├── 2_cleaning.py                # Data cleaning and filtering
+│   ├── 3_profiling.py               # Style analysis and metrics
+│   └── generation.py                # LLM interaction and Humanization logic
 │
 ├── notebooks/                       # Sandbox for research and testing
 │   ├── 01_data_exploration.ipynb    # Initial data visualization and inspection
@@ -47,8 +47,8 @@ humanizer_project/
 │   └── index.html                   # Main UI template (Self-written)
 │
 ├── .env                             # Environment variables (API Keys)
-├── requirements.txt                 # Dependency list (pandas, nltk, openai, flask)
-└── main.py                          # Application entry point (Flask Server / Pipeline CLI)
+├── requirements.txt                 # Dependency list
+└── main.py                          # Application entry point
 ```
 
 ## Technical Implementation
